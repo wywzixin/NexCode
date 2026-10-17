@@ -1,0 +1,23 @@
+config.yaml
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/
+build/
+.idea/
+.vscode/
+.nexcode/
+.mewcode/
+.claude/
+CLAUDE.md
+
+# Local credentials
+.env
+.env.*
+!.env.example
+config.local.yaml
+
+# Generated caches
+.pytest_cache/
+.firecrawl/
