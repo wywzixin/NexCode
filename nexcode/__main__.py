@@ -85,10 +85,10 @@ def main() -> None:
         asyncio.run(server.run())
         return
 
-    from nexcode.app import MewCodeApp
+    from nexcode.app import NexCodeApp
     from nexcode.driver import NoAltScreenDriver
 
-    app = MewCodeApp(
+    app = NexCodeApp(
         providers=config.providers,
         permission_mode=permission_mode,
         mcp_servers=config.mcp_servers,
